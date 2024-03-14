@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="root">welcome to home</div>
+
+        <!-- creating html element using JS -->
+        <script>
+            const helloDiv = document.createElement("div");
+            helloDiv.innerHTML = "hello world";
+            const rootElement = document.getElementById("root");
+            rootElement.appendChild(helloDiv);
+        </script>
+    </body>
+</html>
+
+<!-- we have following methods in react -->
+<!--  
+Children
+Component(props, context, updater)
+PureComponent(props, context, updater)
+cloneElementWithValidation(element, props, children)
+createContext(defaultValue)
+createElementWithValidation(type, props, children)
+createFactoryWithValidation(type)
+createRef()
+forwardRef(render)
+isValidElement(object)
+lazy(ctor)
+memo(type, compare)
+startTransition(scope, options)
+act(callback)
+useCallback(callback, deps)
+useContext(Context)
+useDebugValue(value, formatterFn)
+useDeferredValue(value)
+useEffect(create, deps)
+useId()
+useImperativeHandle(ref, create, deps)
+useInsertionEffect(create, deps)
+useLayoutEffect(create, deps)
+useMemo(create, deps)
+useReducer(reducer, initialArg, init)
+useRef(initialValue)
+useState(initialState)
+useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+useTransition()
+ -->
+
+<!-- reactDom  -->
+<!-- 
+createPortal
+createPortal$1(children, container)
+createRoot$1(container, options)
+findDOMNode(componentOrElement)
+flushSync$1(fn)
+hydrate(element, container, callback)
+hydrateRoot$1(container, initialChildren, options)
+render(element, container, callback)
+unmountComponentAtNode(container)
+batchedUpdates$1(fn, a)
+re  -->
